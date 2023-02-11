@@ -12,6 +12,8 @@ id      int auto_increment primary key
 
 ,active boolean     NOT NULL
 
-,comments   text        
+,comments   text   
+
+,"status" CHAR(1)
 
 );
