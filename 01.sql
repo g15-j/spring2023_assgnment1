@@ -12,8 +12,13 @@ id      int auto_increment primary key
 
 ,active boolean     NOT NULL
 
+<<<<<< br_person3
 ,comments   text   
 
 ,email varchar(30)
+,comments   text
+
+,status CHAR(1)
+>>>>>> main
 
 );
